@@ -15,7 +15,7 @@ public class Pelota {
    private int dx=1, dy=1;
    
    
-   /********************* COSO QUE NO ESTA EN ESTE TUTORIAL ************************/
+   
    
    private Integer puntaje1=0, puntaje2=0;
    public static boolean finJuego = false;
@@ -55,7 +55,7 @@ public class Pelota {
         }
         
         
-   /********************* ESTO ESTA CAMBIADO A LO ORIGINAL DEL TUTORIAL ************************/   
+  
         
         // Esto hace que si supera el limite max en x, cambie de direccion a la contraria
         if (x < limites.getMinX()) {
