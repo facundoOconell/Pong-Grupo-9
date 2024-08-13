@@ -18,7 +18,7 @@ public class Hilo extends Thread { // la clase Thread se usa para aplicaciones m
     @Override
     public void run (){
         
-        // En vez del true de los tutoriales, le agregamos la condicion de que cuando en Pelota.finJuego == false, entonces se termine
+        // le agregamos la condicion de que cuando en Pelota.finJuego == false, entonces se termine
         while(!Pelota.finJuego){
             lamina.repaint(); // LO PONEMOS ACA EN VEZ DE ABAJO
             try {
