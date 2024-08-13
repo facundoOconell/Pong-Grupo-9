@@ -50,7 +50,7 @@ public class TableroJuego extends JPanel {
     
    
     public void dibujar(Graphics2D g){
-       //*********** COSO QUE NO ESTA EN ESTE TUTORIAL****************//
+       
        
         //Dibuja la linea del medio
         Line2D.Double linea = new Line2D.Double(getBounds().getCenterX(), 0, getBounds().getCenterX(), getBounds().getMaxY());
@@ -93,7 +93,7 @@ public class TableroJuego extends JPanel {
     }
     
   
-  //*********************** COSO QUE NO ESTA EN ESTE TUTORIAL ********************************************//
+  
     
     private void dibujarPuntaje (Graphics2D g){
         
